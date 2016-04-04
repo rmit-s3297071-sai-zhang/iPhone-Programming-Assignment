@@ -89,14 +89,18 @@ class MovieTableViewController: UITableViewController, UITableViewDelegate, UITa
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
+        
+        if let destination = segue.destinationViewController as? MovieUIViewController {
+            if let index = tableView.indexPathForSelectedRow()?.row {
+                destination.movie = movieModel.movies[index]
+            }
+        }
     }
-    */
+    
 
 }

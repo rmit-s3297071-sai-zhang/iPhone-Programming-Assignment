@@ -54,6 +54,9 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="TbU-C7-8bg" kind="show" id="y6q-M0-2h8"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -99,34 +102,64 @@
                                 <rect key="frame" x="0.0" y="32" width="600" height="600"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Iron Man" translatesAutoresizingMaskIntoConstraints="NO" id="2JX-LF-iS2">
-                                        <rect key="frame" x="8" y="10" width="202" height="300"/>
+                                        <rect key="frame" x="8" y="10" width="135" height="200"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="If9-Yh-7w0"/>
+                                            <constraint firstAttribute="height" constant="200" id="If9-Yh-7w0"/>
                                             <constraint firstAttribute="width" secondItem="2JX-LF-iS2" secondAttribute="height" multiplier="60:89" id="aLf-YM-NUC"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqB-VD-0Nc">
-                                        <rect key="frame" x="236" y="39" width="33" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqB-VD-0Nc">
+                                        <rect key="frame" x="153" y="40" width="3615" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Year" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLK-cn-xnR">
-                                        <rect key="frame" x="236" y="68" width="34" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Language" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbt-vO-6LE">
+                                        <rect key="frame" x="153" y="91.5" width="3615" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Year" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLK-cn-xnR">
+                                        <rect key="frame" x="153" y="69" width="3337" height="14.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Language" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbt-vO-6LE">
-                                        <rect key="frame" x="236" y="97" width="76" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Plot" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqq-Ib-1WE">
+                                        <rect key="frame" x="8" y="218" width="3752" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9R-m2-YES">
+                                        <rect key="frame" x="8" y="246.5" width="500" height="20.5"/>
+                                        <mutableString key="text">Deadpool is a 2016 American superhero film based on the Marvel Comics character of the same name. It is the eighth installment of the X-Men film series. It is directed by Tim Miller. Written by Rhett Reese and Paul Wernick, the film stars Ryan Reynolds, Morena Baccarin, Ed Skrein, T. J. Miller, Gina Carano, Leslie Uggams, Brianna Hildebrand and Stefan Kapičić. In Deadpool, Wade Wilson hunts the man who gave him an accelerated healing factor but also a scarred physical appearance.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="2JX-LF-iS2" firstAttribute="leading" secondItem="OsN-Wj-kZ1" secondAttribute="leading" constant="8" id="EPR-xh-1VT"/>
+                                    <constraint firstAttribute="width" secondItem="y9R-m2-YES" secondAttribute="width" id="FEl-Gd-8Yq"/>
+                                    <constraint firstAttribute="trailing" secondItem="lbt-vO-6LE" secondAttribute="trailing" id="FvP-hz-5g3"/>
+                                    <constraint firstItem="XqB-VD-0Nc" firstAttribute="leading" secondItem="2JX-LF-iS2" secondAttribute="trailing" constant="10" id="LsH-5N-4DL"/>
+                                    <constraint firstItem="y9R-m2-YES" firstAttribute="leading" secondItem="OsN-Wj-kZ1" secondAttribute="leading" constant="8" id="MCM-Hk-aSM"/>
+                                    <constraint firstItem="iqq-Ib-1WE" firstAttribute="leading" secondItem="OsN-Wj-kZ1" secondAttribute="leading" constant="8" id="QZh-jD-XU1"/>
                                     <constraint firstItem="2JX-LF-iS2" firstAttribute="top" secondItem="OsN-Wj-kZ1" secondAttribute="top" constant="10" id="REO-vQ-y1b"/>
+                                    <constraint firstItem="y9R-m2-YES" firstAttribute="top" secondItem="iqq-Ib-1WE" secondAttribute="bottom" constant="8" id="Riv-1A-YEX"/>
+                                    <constraint firstItem="uLK-cn-xnR" firstAttribute="top" secondItem="XqB-VD-0Nc" secondAttribute="bottom" constant="8" symbolic="YES" id="Txk-6f-7na"/>
+                                    <constraint firstItem="lbt-vO-6LE" firstAttribute="top" secondItem="uLK-cn-xnR" secondAttribute="bottom" constant="8" symbolic="YES" id="W2t-Ch-IBd"/>
+                                    <constraint firstItem="uLK-cn-xnR" firstAttribute="leading" secondItem="2JX-LF-iS2" secondAttribute="trailing" constant="10" id="ZEr-iM-ioq"/>
+                                    <constraint firstItem="uLK-cn-xnR" firstAttribute="top" secondItem="OsN-Wj-kZ1" secondAttribute="top" constant="69" id="ZWa-d8-r0K"/>
+                                    <constraint firstItem="iqq-Ib-1WE" firstAttribute="top" secondItem="2JX-LF-iS2" secondAttribute="bottom" constant="8" id="b9O-6m-jmS"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uLK-cn-xnR" secondAttribute="trailing" id="jLS-BZ-YHm"/>
+                                    <constraint firstAttribute="trailing" secondItem="uLK-cn-xnR" secondAttribute="trailing" constant="278" id="jfP-Ln-mnV"/>
+                                    <constraint firstItem="lbt-vO-6LE" firstAttribute="leading" secondItem="2JX-LF-iS2" secondAttribute="trailing" constant="10" id="lyY-xn-YDG"/>
+                                    <constraint firstAttribute="trailing" secondItem="iqq-Ib-1WE" secondAttribute="trailing" constant="8" id="nQ6-g5-BFa"/>
+                                    <constraint firstAttribute="trailing" secondItem="XqB-VD-0Nc" secondAttribute="trailing" id="q9x-eD-Vxe"/>
+                                    <constraint firstAttribute="bottom" secondItem="uLK-cn-xnR" secondAttribute="bottom" constant="510" id="wtp-F5-wpT"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -140,11 +173,16 @@
                     </view>
                     <connections>
                         <outlet property="MovieDetailScrollerView" destination="OsN-Wj-kZ1" id="DTB-QF-LcI"/>
+                        <outlet property="langLabel" destination="lbt-vO-6LE" id="HNH-u3-orV"/>
+                        <outlet property="plotLabel" destination="y9R-m2-YES" id="DG3-sg-arm"/>
+                        <outlet property="posterImageView" destination="2JX-LF-iS2" id="zWA-zE-42f"/>
+                        <outlet property="titleLabel" destination="XqB-VD-0Nc" id="rlY-xX-TfG"/>
+                        <outlet property="yearLabel" destination="uLK-cn-xnR" id="H55-68-hfX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRE-hm-52E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1639" y="319.5"/>
+            <point key="canvasLocation" x="1639" y="319"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="s6n-jy-eUu">
@@ -171,4 +209,7 @@
         <image name="ic_local_movies_white" width="24" height="24"/>
         <image name="ic_room_white" width="24" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vAG-bX-zql"/>
+    </inferredMetricsTieBreakers>
 </document>

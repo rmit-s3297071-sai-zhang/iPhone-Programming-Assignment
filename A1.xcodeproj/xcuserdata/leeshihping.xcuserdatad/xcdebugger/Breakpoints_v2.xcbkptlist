@@ -25,7 +25,7 @@
                   symbolName = "A1.Movie.id.setter : Swift.String"
                   moduleName = "A1"
                   urlString = "file:///Users/leeshihping/Documents/workspace/A1/A1/Movie.swift"
-                  timestampString = "481444579.209609"
+                  timestampString = "481457246.098595"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -39,7 +39,7 @@
                   symbolName = "A1.Movie.id.materializeForSet : Swift.String"
                   moduleName = "A1"
                   urlString = "file:///Users/leeshihping/Documents/workspace/A1/A1/Movie.swift"
-                  timestampString = "481444579.209853"
+                  timestampString = "481457246.098861"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -93,6 +93,124 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "9"
             endingLineNumber = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieUIViewController.swift"
+            timestampString = "481447429.487269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MovieUIViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A1.MovieUIViewController.titleLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "A1"
+                  urlString = "file:///Users/leeshihping/Documents/workspace/A1/MovieUIViewController.swift"
+                  timestampString = "481447429.491137"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A1.MovieUIViewController.titleLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "A1"
+                  urlString = "file:///Users/leeshihping/Documents/workspace/A1/MovieUIViewController.swift"
+                  timestampString = "481447429.4914"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A1.MovieUIViewController.titleLabel.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "A1"
+                  urlString = "file:///Users/leeshihping/Documents/workspace/A1/MovieUIViewController.swift"
+                  timestampString = "481447429.491612"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A1.MovieUIViewController.init (A1.MovieUIViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; A1.MovieUIViewController"
+                  moduleName = "A1"
+                  urlString = "file:///Users/leeshihping/Documents/workspace/A1/MovieUIViewController.swift"
+                  timestampString = "481447429.49181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A1.MovieUIViewController.init (A1.MovieUIViewController.Type)() -&gt; A1.MovieUIViewController"
+                  moduleName = "A1"
+                  urlString = "file:///Users/leeshihping/Documents/workspace/A1/MovieUIViewController.swift"
+                  timestampString = "481447429.492001"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A1.MovieUIViewController.init (A1.MovieUIViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; A1.MovieUIViewController"
+                  moduleName = "A1"
+                  urlString = "file:///Users/leeshihping/Documents/workspace/A1/MovieUIViewController.swift"
+                  timestampString = "481447429.49219"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieUIViewController.swift"
+            timestampString = "481457135.613376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
