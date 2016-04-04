@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FAAFB4401CB1015700AE63BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB43F1CB1015700AE63BD /* AppDelegate.swift */; };
-		FAAFB4421CB1015700AE63BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4411CB1015700AE63BD /* ViewController.swift */; };
 		FAAFB4451CB1015700AE63BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAFB4431CB1015700AE63BD /* Main.storyboard */; };
 		FAAFB4471CB1015700AE63BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAFB4461CB1015700AE63BD /* Images.xcassets */; };
 		FAAFB44A1CB1015700AE63BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAFB4481CB1015700AE63BD /* LaunchScreen.xib */; };
 		FAAFB4561CB1015700AE63BD /* A1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4551CB1015700AE63BD /* A1Tests.swift */; };
+		FAAFB4601CB10D7200AE63BD /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB45F1CB10D7200AE63BD /* MovieTableViewController.swift */; };
+		FAAFB4671CB1138400AE63BD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4661CB1138400AE63BD /* Movie.swift */; };
+		FAAFB4691CB1139900AE63BD /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4681CB1139900AE63BD /* MovieModel.swift */; };
+		FAAFB46F1CB2236400AE63BD /* MovieUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB46E1CB2236400AE63BD /* MovieUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		FAAFB43A1CB1015700AE63BD /* A1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAFB43E1CB1015700AE63BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAFB43F1CB1015700AE63BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAAFB4411CB1015700AE63BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAAFB4441CB1015700AE63BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAAFB4461CB1015700AE63BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAAFB4491CB1015700AE63BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FAAFB44F1CB1015700AE63BD /* A1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAFB4541CB1015700AE63BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAFB4551CB1015700AE63BD /* A1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1Tests.swift; sourceTree = "<group>"; };
+		FAAFB45F1CB10D7200AE63BD /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		FAAFB4661CB1138400AE63BD /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		FAAFB4681CB1139900AE63BD /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		FAAFB46E1CB2236400AE63BD /* MovieUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieUIViewController.swift; path = ../MovieUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				FAAFB43F1CB1015700AE63BD /* AppDelegate.swift */,
-				FAAFB4411CB1015700AE63BD /* ViewController.swift */,
+				FAAFB4611CB10F8700AE63BD /* Models */,
+				FAAFB45F1CB10D7200AE63BD /* MovieTableViewController.swift */,
+				FAAFB46E1CB2236400AE63BD /* MovieUIViewController.swift */,
 				FAAFB4431CB1015700AE63BD /* Main.storyboard */,
 				FAAFB4461CB1015700AE63BD /* Images.xcassets */,
 				FAAFB4481CB1015700AE63BD /* LaunchScreen.xib */,
@@ -110,6 +118,15 @@
 				FAAFB4541CB1015700AE63BD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAAFB4611CB10F8700AE63BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAAFB4661CB1138400AE63BD /* Movie.swift */,
+				FAAFB4681CB1139900AE63BD /* MovieModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAFB4421CB1015700AE63BD /* ViewController.swift in Sources */,
+				FAAFB4691CB1139900AE63BD /* MovieModel.swift in Sources */,
+				FAAFB46F1CB2236400AE63BD /* MovieUIViewController.swift in Sources */,
 				FAAFB4401CB1015700AE63BD /* AppDelegate.swift in Sources */,
+				FAAFB4671CB1138400AE63BD /* Movie.swift in Sources */,
+				FAAFB4601CB10D7200AE63BD /* MovieTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +427,7 @@
 				FAAFB45B1CB1015700AE63BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAFB45C1CB1015700AE63BD /* Build configuration list for PBXNativeTarget "A1Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +436,7 @@
 				FAAFB45E1CB1015700AE63BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
