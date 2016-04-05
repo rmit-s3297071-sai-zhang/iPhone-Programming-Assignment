@@ -16,6 +16,9 @@
 		FAAFB4671CB1138400AE63BD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4661CB1138400AE63BD /* Movie.swift */; };
 		FAAFB4691CB1139900AE63BD /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4681CB1139900AE63BD /* MovieModel.swift */; };
 		FAAFB46F1CB2236400AE63BD /* MovieUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB46E1CB2236400AE63BD /* MovieUIViewController.swift */; };
+		FAAFB4711CB2759300AE63BD /* Cinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4701CB2759300AE63BD /* Cinema.swift */; };
+		FAAFB4731CB28A0000AE63BD /* CinemaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4721CB28A0000AE63BD /* CinemaModel.swift */; };
+		FAAFB4771CB3476D00AE63BD /* CinemaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4761CB3476D00AE63BD /* CinemaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		FAAFB4661CB1138400AE63BD /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FAAFB4681CB1139900AE63BD /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		FAAFB46E1CB2236400AE63BD /* MovieUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieUIViewController.swift; path = ../MovieUIViewController.swift; sourceTree = "<group>"; };
+		FAAFB4701CB2759300AE63BD /* Cinema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cinema.swift; sourceTree = "<group>"; };
+		FAAFB4721CB28A0000AE63BD /* CinemaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaModel.swift; sourceTree = "<group>"; };
+		FAAFB4761CB3476D00AE63BD /* CinemaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,7 @@
 				FAAFB4461CB1015700AE63BD /* Images.xcassets */,
 				FAAFB4481CB1015700AE63BD /* LaunchScreen.xib */,
 				FAAFB43D1CB1015700AE63BD /* Supporting Files */,
+				FAAFB4761CB3476D00AE63BD /* CinemaTableViewController.swift */,
 			);
 			path = A1;
 			sourceTree = "<group>";
@@ -125,6 +132,8 @@
 			children = (
 				FAAFB4661CB1138400AE63BD /* Movie.swift */,
 				FAAFB4681CB1139900AE63BD /* MovieModel.swift */,
+				FAAFB4701CB2759300AE63BD /* Cinema.swift */,
+				FAAFB4721CB28A0000AE63BD /* CinemaModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -229,10 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAFB4711CB2759300AE63BD /* Cinema.swift in Sources */,
 				FAAFB4691CB1139900AE63BD /* MovieModel.swift in Sources */,
 				FAAFB46F1CB2236400AE63BD /* MovieUIViewController.swift in Sources */,
 				FAAFB4401CB1015700AE63BD /* AppDelegate.swift in Sources */,
 				FAAFB4671CB1138400AE63BD /* Movie.swift in Sources */,
+				FAAFB4731CB28A0000AE63BD /* CinemaModel.swift in Sources */,
+				FAAFB4771CB3476D00AE63BD /* CinemaTableViewController.swift in Sources */,
 				FAAFB4601CB10D7200AE63BD /* MovieTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
