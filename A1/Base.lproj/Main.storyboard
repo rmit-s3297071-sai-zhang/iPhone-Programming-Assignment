@@ -706,6 +706,9 @@
                                         <state key="normal" image="ic_movie_white_36pt">
                                             <attributedString key="attributedTitle"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="7xp-ZA-Gjo" kind="show" id="Wyl-I2-S5m"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -785,12 +788,11 @@
                         <outlet property="plotLabel" destination="y9R-m2-YES" id="SoU-oM-Oqi"/>
                         <outlet property="posterImageView" destination="2JX-LF-iS2" id="bV2-Jl-X2p"/>
                         <outlet property="titleLabel" destination="XqB-VD-0Nc" id="mII-Oo-45n"/>
-                        <segue destination="7xp-ZA-Gjo" kind="show" id="Gkn-XO-XN1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M4l-PE-5Xb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="384"/>
+            <point key="canvasLocation" x="1249" y="252"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="clp-2s-vtd">
@@ -1254,9 +1256,9 @@
         <image name="ic_settings_white_36pt" width="36" height="36"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Gkn-XO-XN1"/>
-        <segue reference="K3c-c0-7bg"/>
-        <segue reference="BhW-hO-NuX"/>
-        <segue reference="nPo-uO-Xfb"/>
+        <segue reference="Wyl-I2-S5m"/>
+        <segue reference="FSx-TG-arY"/>
+        <segue reference="5Nn-4p-rGK"/>
+        <segue reference="3QN-Ir-BVC"/>
     </inferredMetricsTieBreakers>
 </document>
