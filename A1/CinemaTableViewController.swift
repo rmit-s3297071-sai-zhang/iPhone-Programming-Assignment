@@ -8,11 +8,10 @@
 
 import UIKit
 
-class CinemaTableViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource {
+class CinemaTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var cinemaModel = CinemaModel()
     
-    @IBOutlet var cinemaTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,20 +30,20 @@ class CinemaTableViewController: UITableViewController, UITableViewDelegate, UIT
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         return cinemaModel.cinemas.count
     }
 
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("CinemaCell", forIndexPath: indexPath) as UITableViewCell
         let cinema = cinemaModel.cinemas[indexPath.row]
         cell.textLabel?.text = cinema.name

@@ -8,9 +8,11 @@
 
 import UIKit
 
-class MovieTableViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource {
+class MovieTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var movieModel  = MovieModel()
-    @IBOutlet var moveTableView: UITableView!
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //moveTableView.delegate = self
@@ -29,20 +31,20 @@ class MovieTableViewController: UITableViewController, UITableViewDelegate, UITa
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         return movieModel.movies.count
     }
 
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("MovieCell", forIndexPath: indexPath) as UITableViewCell
         let movie = movieModel.movies[indexPath.row]
         cell.textLabel?.text = movie.title
@@ -96,7 +98,7 @@ class MovieTableViewController: UITableViewController, UITableViewDelegate, UITa
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if let destination = segue.destinationViewController as? MovieUIViewController {
-            if let index = tableView.indexPathForSelectedRow()?.row {
+            if let index = tableView.indexPathForSelectedRow?.row {
                 destination.movie = movieModel.movies[index]
             }
         }

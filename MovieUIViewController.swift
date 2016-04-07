@@ -11,16 +11,10 @@ import UIKit
 class MovieUIViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
-    
-    @IBOutlet weak var yearLabel: UILabel!
-    
     @IBOutlet weak var langLabel: UILabel!
-    
-    @IBOutlet weak var plotLabel: UILabel!
-    
     @IBOutlet weak var posterImageView: UIImageView!
-    
-    @IBOutlet weak var MovieDetailScrollerView: UIScrollView!
+    @IBOutlet weak var plotLabel: UILabel!
+//    @IBOutlet weak var MovieDetailScrollerView: UIScrollView!
     
     var movie: Movie?
     override func viewDidLoad() {
@@ -31,9 +25,6 @@ class MovieUIViewController: UIViewController {
         
         let title = movie?.title
         titleLabel.text = title
-        
-        let year = movie?.year
-        yearLabel.text = year
         
         let lang = movie?.lang
         langLabel.text = lang

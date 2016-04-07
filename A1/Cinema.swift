@@ -41,12 +41,12 @@ class Cinema {
     func removeMovie(id: String) -> Bool {
         var success = false
         var index = 0
-        for m in movieOn! {
+        for _ in movieOn! {
             if movieOn?[index].id == id {
                 movieOn?.removeAtIndex(index)
                 success = true
             }
-            ++index
+            index += 1
         }
         
         return success

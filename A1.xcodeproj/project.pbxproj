@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA270C891CB627F0006BC5F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA270C881CB627F0006BC5F9 /* LoginViewController.swift */; };
 		FAAFB4401CB1015700AE63BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB43F1CB1015700AE63BD /* AppDelegate.swift */; };
 		FAAFB4451CB1015700AE63BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAFB4431CB1015700AE63BD /* Main.storyboard */; };
 		FAAFB4471CB1015700AE63BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAFB4461CB1015700AE63BD /* Images.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA270C881CB627F0006BC5F9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FAAFB43A1CB1015700AE63BD /* A1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAFB43E1CB1015700AE63BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAFB43F1CB1015700AE63BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				FAAFB4481CB1015700AE63BD /* LaunchScreen.xib */,
 				FAAFB43D1CB1015700AE63BD /* Supporting Files */,
 				FAAFB4761CB3476D00AE63BD /* CinemaTableViewController.swift */,
+				FA270C881CB627F0006BC5F9 /* LoginViewController.swift */,
 			);
 			path = A1;
 			sourceTree = "<group>";
@@ -182,7 +185,9 @@
 		FAAFB4321CB1015600AE63BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = RMIT;
 				TargetAttributes = {
 					FAAFB4391CB1015600AE63BD = {
@@ -238,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA270C891CB627F0006BC5F9 /* LoginViewController.swift in Sources */,
 				FAAFB4711CB2759300AE63BD /* Cinema.swift in Sources */,
 				FAAFB4691CB1139900AE63BD /* MovieModel.swift in Sources */,
 				FAAFB46F1CB2236400AE63BD /* MovieUIViewController.swift in Sources */,
@@ -307,6 +313,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -372,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = A1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.rmit.s3518495.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -382,6 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = A1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.rmit.s3518495.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -400,6 +409,7 @@
 				);
 				INFOPLIST_FILE = A1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.rmit.s3518495.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A1.app/A1";
 			};
@@ -415,6 +425,7 @@
 				);
 				INFOPLIST_FILE = A1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.rmit.s3518495.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A1.app/A1";
 			};
