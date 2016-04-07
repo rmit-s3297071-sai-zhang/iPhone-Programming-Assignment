@@ -2,7 +2,7 @@
 //  CinemaTableViewController.swift
 //  A1
 //
-//  Created by Lee Shih ping on 2016/4/5.
+//  Created by Ricky on 2016/4/5.
 //  Copyright (c) 2016年 RMIT. All rights reserved.
 //
 

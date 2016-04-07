@@ -2,7 +2,7 @@
 //  SignUpViewController.swift
 //  A1
 //
-//  Created by Lee Shih ping on 2016/4/7.
+//  Created by Ricky on 2016/4/7.
 //  Copyright © 2016年 RMIT. All rights reserved.
 //
 

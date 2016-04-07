@@ -2,7 +2,7 @@
 //  A1UITests.swift
 //  A1UITests
 //
-//  Created by Lee Shih ping on 2016/4/7.
+//  Created by Ricky Wu on 2016/4/7.
 //  Copyright © 2016年 RMIT. All rights reserved.
 //
 
