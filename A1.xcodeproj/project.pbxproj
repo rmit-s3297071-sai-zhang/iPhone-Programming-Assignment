@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FA270C891CB627F0006BC5F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA270C881CB627F0006BC5F9 /* LoginViewController.swift */; };
+		FA270C8B1CB6595D006BC5F9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA270C8A1CB6595D006BC5F9 /* SignUpViewController.swift */; };
+		FA270C8D1CB659DB006BC5F9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA270C8C1CB659DB006BC5F9 /* SettingViewController.swift */; };
 		FAAFB4401CB1015700AE63BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB43F1CB1015700AE63BD /* AppDelegate.swift */; };
 		FAAFB4451CB1015700AE63BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAFB4431CB1015700AE63BD /* Main.storyboard */; };
 		FAAFB4471CB1015700AE63BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAFB4461CB1015700AE63BD /* Images.xcassets */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		FA270C881CB627F0006BC5F9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA270C8A1CB6595D006BC5F9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA270C8C1CB659DB006BC5F9 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		FAAFB43A1CB1015700AE63BD /* A1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAFB43E1CB1015700AE63BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAFB43F1CB1015700AE63BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				FAAFB45F1CB10D7200AE63BD /* MovieTableViewController.swift */,
 				FAAFB46E1CB2236400AE63BD /* MovieUIViewController.swift */,
 				FAAFB4431CB1015700AE63BD /* Main.storyboard */,
+				FA270C8C1CB659DB006BC5F9 /* SettingViewController.swift */,
+				FA270C8A1CB6595D006BC5F9 /* SignUpViewController.swift */,
 				FAAFB4461CB1015700AE63BD /* Images.xcassets */,
 				FAAFB4481CB1015700AE63BD /* LaunchScreen.xib */,
 				FAAFB43D1CB1015700AE63BD /* Supporting Files */,
@@ -244,9 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA270C891CB627F0006BC5F9 /* LoginViewController.swift in Sources */,
+				FA270C8D1CB659DB006BC5F9 /* SettingViewController.swift in Sources */,
 				FAAFB4711CB2759300AE63BD /* Cinema.swift in Sources */,
 				FAAFB4691CB1139900AE63BD /* MovieModel.swift in Sources */,
 				FAAFB46F1CB2236400AE63BD /* MovieUIViewController.swift in Sources */,
+				FA270C8B1CB6595D006BC5F9 /* SignUpViewController.swift in Sources */,
 				FAAFB4401CB1015700AE63BD /* AppDelegate.swift in Sources */,
 				FAAFB4671CB1138400AE63BD /* Movie.swift in Sources */,
 				FAAFB4731CB28A0000AE63BD /* CinemaModel.swift in Sources */,
