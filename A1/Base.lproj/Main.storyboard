@@ -17,12 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="7Ji-5A-EsL">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="7Ji-5A-EsL">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="537"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CinemaCell" textLabel="y50-D9-iWP" detailTextLabel="0Ch-5m-RBo" style="IBUITableViewCellStyleSubtitle" id="Y4v-wp-5jT">
-                                        <rect key="frame" x="0.0" y="22" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="86" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y4v-wp-5jT" id="FKV-2i-3fo">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -387,12 +387,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="c9c-tx-eRP">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="c9c-tx-eRP">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="537"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" textLabel="NZP-ja-qjE" detailTextLabel="p4t-dJ-rzo" style="IBUITableViewCellStyleSubtitle" id="REX-RT-rNM">
-                                        <rect key="frame" x="0.0" y="22" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="86" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="REX-RT-rNM" id="9Bt-L3-2BQ">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -1255,8 +1255,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Gkn-XO-XN1"/>
-        <segue reference="FSx-TG-arY"/>
-        <segue reference="5Nn-4p-rGK"/>
-        <segue reference="3QN-Ir-BVC"/>
+        <segue reference="K3c-c0-7bg"/>
+        <segue reference="BhW-hO-NuX"/>
+        <segue reference="nPo-uO-Xfb"/>
     </inferredMetricsTieBreakers>
 </document>
