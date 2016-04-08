@@ -688,7 +688,7 @@
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azG-Bp-pr9">
-                                        <rect key="frame" x="0.0" y="324" width="584" height="30"/>
+                                        <rect key="frame" x="0.0" y="470" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Buy Tickets">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -714,7 +714,6 @@
                                     <constraint firstItem="2JX-LF-iS2" firstAttribute="top" secondItem="mwQ-Zp-SQ7" secondAttribute="top" id="tJW-43-DBv"/>
                                     <constraint firstAttribute="trailing" secondItem="lbt-vO-6LE" secondAttribute="trailing" id="tdt-LS-UsA"/>
                                     <constraint firstItem="lbt-vO-6LE" firstAttribute="leading" secondItem="mwQ-Zp-SQ7" secondAttribute="leading" id="xZf-m4-XQY"/>
-                                    <constraint firstItem="azG-Bp-pr9" firstAttribute="top" secondItem="y9R-m2-YES" secondAttribute="bottom" constant="8" id="xbV-iQ-6kI"/>
                                     <constraint firstItem="lbt-vO-6LE" firstAttribute="top" secondItem="XqB-VD-0Nc" secondAttribute="bottom" constant="8" id="xwh-9y-PUZ"/>
                                 </constraints>
                             </view>
@@ -726,6 +725,7 @@
                             <constraint firstItem="9co-8R-cZQ" firstAttribute="centerX" secondItem="jO4-L3-zfq" secondAttribute="centerX" id="4hl-Gp-DZO"/>
                             <constraint firstItem="9co-8R-cZQ" firstAttribute="width" secondItem="jO4-L3-zfq" secondAttribute="width" id="AaB-5h-fsC"/>
                             <constraint firstItem="mwQ-Zp-SQ7" firstAttribute="top" secondItem="ztE-tS-eJw" secondAttribute="bottom" constant="8" id="N2e-T1-2yv"/>
+                            <constraint firstItem="9gK-hx-PfP" firstAttribute="top" secondItem="azG-Bp-pr9" secondAttribute="bottom" constant="72" id="SJ1-8E-MpU"/>
                             <constraint firstAttribute="trailing" secondItem="mwQ-Zp-SQ7" secondAttribute="trailing" constant="8" id="pOz-Sl-zfN"/>
                             <constraint firstItem="mwQ-Zp-SQ7" firstAttribute="leading" secondItem="jO4-L3-zfq" secondAttribute="leading" constant="8" id="sXk-1n-WT2"/>
                         </constraints>
@@ -1716,8 +1716,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="3QN-Ir-BVC"/>
-        <segue reference="k1r-r9-ceg"/>
-        <segue reference="HeC-wG-WOP"/>
-        <segue reference="kuc-lP-fuK"/>
+        <segue reference="Wyl-I2-S5m"/>
+        <segue reference="5Nn-4p-rGK"/>
+        <segue reference="FSx-TG-arY"/>
     </inferredMetricsTieBreakers>
 </document>
