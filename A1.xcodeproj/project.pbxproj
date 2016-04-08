@@ -23,6 +23,9 @@
 		FAAFB4711CB2759300AE63BD /* Cinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4701CB2759300AE63BD /* Cinema.swift */; };
 		FAAFB4731CB28A0000AE63BD /* CinemaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4721CB28A0000AE63BD /* CinemaModel.swift */; };
 		FAAFB4771CB3476D00AE63BD /* CinemaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFB4761CB3476D00AE63BD /* CinemaTableViewController.swift */; };
+		FADAAABB1CB7E1C700A9719E /* MovieCinemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAAABA1CB7E1C700A9719E /* MovieCinemaViewController.swift */; };
+		FADAAABD1CB7E70100A9719E /* MovieCinemaSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAAABC1CB7E70100A9719E /* MovieCinemaSessionViewController.swift */; };
+		FADAAABF1CB7EA1D00A9719E /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAAABE1CB7EA1D00A9719E /* BookingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		FAAFB4701CB2759300AE63BD /* Cinema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cinema.swift; sourceTree = "<group>"; };
 		FAAFB4721CB28A0000AE63BD /* CinemaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaModel.swift; sourceTree = "<group>"; };
 		FAAFB4761CB3476D00AE63BD /* CinemaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaTableViewController.swift; sourceTree = "<group>"; };
+		FADAAABA1CB7E1C700A9719E /* MovieCinemaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCinemaViewController.swift; path = ../MovieCinemaViewController.swift; sourceTree = "<group>"; };
+		FADAAABC1CB7E70100A9719E /* MovieCinemaSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCinemaSessionViewController.swift; sourceTree = "<group>"; };
+		FADAAABE1CB7EA1D00A9719E /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,12 +135,15 @@
 				FAAFB45F1CB10D7200AE63BD /* MovieTableViewController.swift */,
 				FAAFB46E1CB2236400AE63BD /* MovieUIViewController.swift */,
 				FAAFB4431CB1015700AE63BD /* Main.storyboard */,
+				FADAAABE1CB7EA1D00A9719E /* BookingViewController.swift */,
 				FA270C8C1CB659DB006BC5F9 /* SettingViewController.swift */,
 				FA270C8A1CB6595D006BC5F9 /* SignUpViewController.swift */,
 				FAAFB4461CB1015700AE63BD /* Images.xcassets */,
 				FAAFB4481CB1015700AE63BD /* LaunchScreen.xib */,
 				FAAFB43D1CB1015700AE63BD /* Supporting Files */,
 				FAAFB4761CB3476D00AE63BD /* CinemaTableViewController.swift */,
+				FADAAABA1CB7E1C700A9719E /* MovieCinemaViewController.swift */,
+				FADAAABC1CB7E70100A9719E /* MovieCinemaSessionViewController.swift */,
 				FA270C881CB627F0006BC5F9 /* LoginViewController.swift */,
 			);
 			path = A1;
@@ -318,7 +327,9 @@
 			files = (
 				FA270C891CB627F0006BC5F9 /* LoginViewController.swift in Sources */,
 				FA270C8D1CB659DB006BC5F9 /* SettingViewController.swift in Sources */,
+				FADAAABB1CB7E1C700A9719E /* MovieCinemaViewController.swift in Sources */,
 				FAAFB4711CB2759300AE63BD /* Cinema.swift in Sources */,
+				FADAAABD1CB7E70100A9719E /* MovieCinemaSessionViewController.swift in Sources */,
 				FAAFB4691CB1139900AE63BD /* MovieModel.swift in Sources */,
 				FAAFB46F1CB2236400AE63BD /* MovieUIViewController.swift in Sources */,
 				FA270C8B1CB6595D006BC5F9 /* SignUpViewController.swift in Sources */,
@@ -326,6 +337,7 @@
 				FAAFB4671CB1138400AE63BD /* Movie.swift in Sources */,
 				FAAFB4731CB28A0000AE63BD /* CinemaModel.swift in Sources */,
 				FAAFB4771CB3476D00AE63BD /* CinemaTableViewController.swift in Sources */,
+				FADAAABF1CB7EA1D00A9719E /* BookingViewController.swift in Sources */,
 				FAAFB4601CB10D7200AE63BD /* MovieTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +563,7 @@
 				FA270C9B1CB66C90006BC5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAFB4351CB1015600AE63BD /* Build configuration list for PBXProject "A1" */ = {
 			isa = XCConfigurationList;
